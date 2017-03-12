@@ -3,7 +3,7 @@
       <header>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <title>Coding by nasir</title>
+            <title>Wine installation</title>
                 <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -18,20 +18,23 @@
             ul li{display:block;}
       </style>
       <body>
-<ul>
-step:1   <li>Open the terminal by typing ctrl+alt T<br>
-      Now type <strong><i>sudo dpkg --add-architecture i386</i></strong><br>
-      Enter the administrator password to continue</li><br>
-step:2   <li>Now type <strong>sudo add-apt-repository ppa:wine/wine-builds</strong><br>
-      Hit the <strong>Enter</strong> button to continue</li><br>
-step:3   <li>In terminal, type <strong>sudo apt-get update</strong>
-It is taking sometime to update</li><br>
-step:4   <li>Now type <strong>sudo apt-get install --install-recommends winehq-devel</strong><br>
-And now it is started to download the wine. During the downloading, please don't close the terminal window.</li><br>
-step:5   <li>After downloading, Type <strong>winecfg</strong> in terminal and hit enter<br>
-Now an installation window of wine will be appeared automatically. Then continue to install the wine.
-</li>
-</ul>
-            <a href="index.html"><span class="glyphicon glyphicon-arrow-left"></span>Back to main menu</a>
+            <div class="container">
+                  <ul>
+                        step:1   <li>Open the terminal by typing ctrl+alt T<br>
+                              Now type <strong><i>sudo dpkg --add-architecture i386</i></strong><br>
+                              Enter the administrator password to continue</li><br>
+                        step:2   <li>Now type <strong>sudo add-apt-repository ppa:wine/wine-builds</strong><br>
+                              Hit the <strong>Enter</strong> button to continue</li><br>
+                        step:3   <li>In terminal, type <strong>sudo apt-get update</strong>
+                        It is taking sometime to update</li><br>
+                        step:4   <li>Now type <strong>sudo apt-get install --install-recommends winehq-devel</strong><br>
+                        And now it is started to download the wine. During the downloading, please don't close the terminal window.</li><br>
+                        step:5   <li>After downloading, Type <strong>winecfg</strong> in terminal and hit enter<br>
+                        Now an installation window of wine will be appeared automatically. Then continue to install the wine.
+                        </li>
+                  </ul>
+                  <a href="index.html" class="btn btn-primary"><span class="glyphicon glyphicon-arrow-left"></span>  Back to main menu</a>
+
+            </div>
       </body>
 </html>
